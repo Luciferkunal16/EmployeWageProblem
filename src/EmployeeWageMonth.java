@@ -1,6 +1,7 @@
-public class EmployeeWageSwitchCase {
+public class EmployeeWageMonth {
 	public static void main(String[] args) {
 	int WAGE_PER_HOUR=20;
+	int NumberOfDays=20;
 	int EmpHour=0;
 	int CheckRandom=(int)(Math.random()*10%3);
 	switch (CheckRandom) {
@@ -16,7 +17,7 @@ public class EmployeeWageSwitchCase {
 		System.out.println("Employee is Absent");
 		break;
 	}
-System.out.println("Employee Wage is "+WAGE_PER_HOUR* EmpHour);
+System.out.println("Employee Wage For Month is "+NumberOfDays*(WAGE_PER_HOUR* EmpHour));
 }
 
 
